@@ -95,13 +95,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-releases/</url>
+	      <name>wallmart-releases</name>
+	      <url>http://localhost:8081/repository/wallmart-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-snapshot/</url>
+	      <name>wallmart-snapshots</name>
+	      <url>http://localhost:8081/repository/wallmart-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
