@@ -24,5 +24,17 @@
             <type>war</type>
         </dependency>
     </dependencies>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>wallmart-releases</name>
+	      <url>http://localhost:8081/repository/wallmart-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>wallmart-snapshots</name>
+	      <url>http://localhost:8081/repository/wallmart-snapshots/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 </project>
 
